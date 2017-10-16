@@ -1,2 +1,3 @@
 # Fundamental-Javascript
-Lots of examples of fundamental javascript
+
+Javascript is powerful even without library.
