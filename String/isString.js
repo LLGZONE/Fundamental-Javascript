@@ -5,11 +5,12 @@ function isString(str) {
   }
 
   try {
-    let a = str.length
+    str.length
   } catch (e) {
     return false
   }
 
+  //every object have
   if (typeof str.valueOf() === 'string') {
     return true
   }
