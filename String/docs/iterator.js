@@ -1,4 +1,4 @@
-import isString from './isString'
+import isString from '../utils/isString'
 
 function iterateStr(str) {
   if (!isString(str)) {
