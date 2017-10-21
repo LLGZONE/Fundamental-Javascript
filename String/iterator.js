@@ -9,7 +9,9 @@ function iterateStr(str) {
     console.log(s)
   }
 
-  for (const s of str) {
-    console.log(s)
+  for (const i in str) {
+    console.log(str[i])
   }
+
+  //Be careful string is immutable
 }

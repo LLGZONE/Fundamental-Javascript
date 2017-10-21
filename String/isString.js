@@ -10,7 +10,7 @@ function isString(str) {
     return false
   }
 
-  //every object have
+  //valueOf return the value of the basic type of Object
   if (typeof str.valueOf() === 'string') {
     return true
   }
